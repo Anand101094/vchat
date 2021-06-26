@@ -1,9 +1,11 @@
 import React from 'react'
+import VideoPlayer from './components/videoPlayer'
 
 const App = (props) => {
     return(
-        <div className="main-app">
-            <h1>Main App</h1>
+        <div className="main-app center container">
+            <h1>Chat App</h1>
+            <VideoPlayer />
         </div>
     )
 }
